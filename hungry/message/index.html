@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hungry</title>
+
+  <!---CSS link-->
+  <link rel="stylesheet" href="style.css">
+
+  <!---fontawesome-->
+  <script src="https://kit.fontawesome.com/b1409704b8.js" crossorigin="anonymous"></script>
+
+  <!---Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600&family=Varela+Round&display=swap"rel="stylesheet">
+
+  <!---Favicon-->
+  <link rel="shortcut icon" type="image/png" href="/hungry/img/h.png" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <a href="/hungry/hungry.html"><img style="float: left" src="/hungry/img/circle-logo.png" alt=""></a>
+    <header><h1 class="heading"> Send us a message </h1></header>
+    <form action="#">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" placeholder="Enter your name">
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Enter your email">
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="branch" placeholder="Enter branch visited">
+          <i class="fas fa-utensils"></i>
+        </div>
+      </div>
+      <div class="message">
+        <textarea placeholder="Write your message" name="message"></textarea>
+        <i class="fas fa-comment-alt"></i>
+      </div>
+      <div class="button-area">
+        <button type="submit">Send Message</button>
+        <span></span>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!---fontawesome-->
+    <script src="https://kit.fontawesome.com/b1409704b8.js" crossorigin="anonymous"></script>
+
+    <!-- owl-carousel -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!---Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <title>hungry</title>
+
+    <!---CSS link-->
+    <link rel='stylesheet' href='hungry.css'>
+
+    <!---Favicon-->
+    <link rel="shortcut icon" type="image/png" href="/hungry/img/h.png" />
+</head>
+
+<body>
+
+    <!-- modal popup start -->
+    <div class="pop-up-overlay">
+        <div class="pop-up-box-container">
+            <div class="check-container">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="pop-up-message-container">
+                <h1 class="heading">Thank You !</h1>
+                <p>Added to cart sucessfully</p>
+                <button class="ok-btn">
+                    <span> OK </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- modal popup end -->
+
+
+
+    <!-- header section starts-->
+    <header>
+        <a href="#home" class="logo"></i>hungry</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="/hungry/message/index.html">Message</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fas fa-user-alt"></i></a>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Your Favourite Food Delivered Hot & Fresh</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor ut magna aliqua.</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="/hungry/img/main.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- home section ends-->
+
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> Our Dishes </h3>
+        <h1 class="heading"> Popular Dishes </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/hungry/img/dish-1.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span><i class="fas fa-rupee-sign"></i> 150</span>
+                <button id="buton" class="btn">Add To Cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/hungry/img/dish-2.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span><i class="fas fa-rupee-sign"></i> 150</span>
+                <button id="buton" class="btn2">Add To Cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/hungry/img/dish-3.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span><i class="fas fa-rupee-sign"></i> 150</span>
+                <button id="buton" class="btn3">Add To Cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/hungry/img/dish-4.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span><i class="fas fa-rupee-sign"></i> 150</span>
+                <button id="buton" class="btn4">Add To Cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/hungry/img/dish-5.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span><i class="fas fa-rupee-sign"></i> 150</span>
+                <button id="buton" class="btn5">Add To Cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/hungry/img/dish-6.png" alt="">
+                <h3>Tasty Food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span><i class="fas fa-rupee-sign"></i> 150</span>
+                <button id="buton" class="btn6">Add To Cart</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- important section starts  -->
+
+    <section class="impo" id="impo">
+        <div class="swiper-container impo-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="/hungry/img/impo-img.png" alt="">
+                    </div>
+                    <div class="content">
+                        <span>Food Is An Important Part <br>Of A Balance Diet</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu
+                            sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                            egestas pretium. Sit amet luctus venenatis lectus magna
+                            fringilla. Pretium vulputate sapien nec sagittis. Purus gravida
+                            quis blandit turpis cursus in hac habitasse platea.<br><br> Nisi porta
+                            lorem mollis aliquam ut porttitor leo. Viverra vitae congue eu
+                            consequat ac felis donec. Pharetra massa massa ultricies mi quis
+                            hendrerit dolor magna eget. Ut tortor pretium viverra
+                            suspendisse potenti nullam. <br></p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- important section ends-->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> About hungry </h3>
+        <h1 class="heading"> Why Choose Us? </h1>
+
+        <div class="row">
+            <div class="content">
+                <h3>Best Food In The Country</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat
+                    voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta
+                    odio corporis nihil!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque
+                    deleniti iste alias, eum natus.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-rupee-sign"></i></i>
+                        <span>Easy Payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="image">
+                <img src="/hungry/img/whyus.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends  -->
+
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> Our Menu </h3>
+        <h1 class="heading"> Our Speciality </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn7">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-2.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn8">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn9">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-4.png" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn10">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn11">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn12">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn13">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn14">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/hungry/img/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Delicious Food</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <button id="buton" class="btn15">Add To Cart</button>
+                    <span><i class="fas fa-rupee-sign"></i> 150</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- msg section ends -->
+    <section class="message" id="message">
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="msg-heading"><i class="fas fa-angle-double-right"></i> We do not cook, we create your
+                    emotions! <i class="fas fa-angle-double-left"></i></h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- msg section ends -->
+
+
+
+    <!-- review section starts starts -->
+    <section class=slidereview id="review">
+        <h3 class="sub-heading"> Customers Review </h3>
+        <h1 class="heading"> They All Love Our Food </h1>
+        <div class="slider owl-carousel">
+            <div class="card">
+                <i class="fas fa-quote-right"></i>
+                <div class="img">
+                    <img src="/hungry/img/pic-1.png" alt="">
+                    <div class="content">
+                        <div class="name-star">
+                            <h3>David Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                        egestas pretium. Sit amet luctus venenatis lectus magna fringilla. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-quote-right"></i>
+                <div class="img">
+                    <img src="/hungry/img/pic-2.png" alt="">
+                    <div class="content">
+                        <div class="name-star">
+                            <h3>David Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                        egestas pretium. Sit amet luctus venenatis lectus magna fringilla. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-quote-right"></i>
+                <div class="img">
+                    <img src="/hungry/img/pic-3.png" alt="">
+                    <div class="content">
+                        <div class="name-star">
+                            <h3>David Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                        egestas pretium. Sit amet luctus venenatis lectus magna fringilla. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-quote-right"></i>
+                <div class="img">
+                    <img src="/hungry/img/pic-4.png" alt="">
+                    <div class="content">
+                        <div class="name-star">
+                            <h3>David Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                        egestas pretium. Sit amet luctus venenatis lectus magna fringilla. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-quote-right"></i>
+                <div class="img">
+                    <img src="/hungry/img/pic-5.png" alt="">
+                    <div class="content">
+                        <div class="name-star">
+                            <h3>David Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                        egestas pretium. Sit amet luctus venenatis lectus magna fringilla. </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-quote-right"></i>
+                <div class="img">
+                    <img src="/hungry/img/pic-6.png" alt="">
+                    <div class="content">
+                        <div class="name-star">
+                            <h3>David Smith</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eu sem integer vitae justo. Tellus cras adipiscing enim eu turpis
+                        egestas pretium. Sit amet luctus venenatis lectus magna fringilla. </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- review section ends -->
+
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">India</a>
+                <a href="#">Japan</a>
+                <a href="#">Russia</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Reivew</a>
+                <a href="/hungry/message/index.html">Message</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">hungry@gmail.com</a>
+                <a href="#">mumbai, india - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <div class="icons" id="icons">
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/">Twitter</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://www.linkedin.com/">Linkedin</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2021 <span>Lorem ipsum dolor. </span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part starts -->
+    <div class="loader-container">
+        <img src="/hungry/img/loadingscreen.gif" alt="">
+    </div>
+    <!-- loader part ends -->
+
+
+    <!-- custom js file link  -->
+    <script src="hungry.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+
+</body>
+
+</html>
