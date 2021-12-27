@@ -16,6 +16,6 @@ A complete restaurant/online food ordering website made using HTML5, CSS, JavaSc
 
 3) Development ID: Visual Studio Code. 
 
-## Screenshot 
-
+## Demo:
+### Desktop View 👇🏻
 ![hungry](https://user-images.githubusercontent.com/88545150/145709650-0b313d77-2020-4046-aafc-94cadd072617.png)
